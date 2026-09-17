@@ -14,4 +14,4 @@
 ![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white) 
 ![AI](https://img.shields.io/badge/AI-FF9900?logo=openai&logoColor=white)
 
-Occasionally dropping some fun little projects.
+$\color{#E74C3C}{\textbf{Occasionally}}\ \color{#E67E22}{\textbf{dropping}}\ \color{#F1C40F}{\textbf{some}}\ \color{#2ECC71}{\textbf{fun}}\ \color{#3498DB}{\textbf{little}}\ \color{#9B59B6}{\textbf{projects.}}$
