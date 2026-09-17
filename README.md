@@ -1,3 +1,17 @@
-<p><b>DATA：</b><img src="https://img.shields.io/badge/Total_Stars-99-F8D866?logo=github" alt="Total Stars" /> <img src="https://img.shields.io/badge/Total_Forks-19-7FAEE2?logo=github" alt="Total Forks" /> <img src="https://img.shields.io/badge/Total_Downloads-1200+-55C181?logo=github" alt="Total Downloads" /></p>
 
-<p><b>Interested in：</b><img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white" alt="C" /> <img src="https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54" alt="Python" /> <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux" /> <img src="https://img.shields.io/badge/MATLAB-e2000f?logo=mathworks&logoColor=white" alt="MATLAB" /> <img src="https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white" alt="R" /> <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust" /> <img src="https://img.shields.io/badge/AI-FF9900?logo=openai&logoColor=white" alt="AI" /></p>
+**Data ：** 
+![Total Stars](https://img.shields.io/badge/Total_Stars-99-F8D866?logo=github) 
+![Total Forks](https://img.shields.io/badge/Total_Forks-19-7FAEE2?logo=github) 
+![Total Downloads](https://img.shields.io/badge/Total_Downloads-1200%2B-55C181?logo=github)
+
+**Interested in：** 
+![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white) 
+![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white) 
+![Python](https://img.shields.io/badge/Python-3670A0?logo=python&logoColor=ffdd54) 
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black) 
+![MATLAB](https://img.shields.io/badge/MATLAB-e2000f?logo=mathworks&logoColor=white) 
+![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white) 
+![Rust](https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white) 
+![AI](https://img.shields.io/badge/AI-FF9900?logo=openai&logoColor=white)
+
+Occasionally dropping some fun little projects.
