@@ -11,7 +11,6 @@ on:
     - cron: "9 * * * *"   # 北京时间每小时第 9 分钟（UTC 1:09/2:09…）
     - cron: "37 * * * *"  # 北京时间每小时第 37 分钟（UTC 1:37/2:37…）
   workflow_dispatch:       # 允许在 Actions 页面手动触发，首次配置后先手动跑一次验证
-  workflow_dispatch:       # 允许在 Actions 页面手动触发，首次配置后先手动跑一次验证
 
 permissions:
   contents: write          # 允许内置 GITHUB_TOKEN 提交并推送 README
