@@ -1,0 +1,38 @@
+# GitHub 统计徽章定时刷新
+# 放到 资料仓库（如 LingyunStudio/LingyunStudio）的 .github/workflows/ 下
+# cron 用 UTC 时间（GitHub 定时任务可能延迟几分钟到半小时，整点触发不保证准时）
+
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # 每小时整点刷新一次（UTC 0:00/1:00/2:00… = 北京时间 8:00/9:00/10:00…）
+  workflow_dispatch:       # 允许在 Actions 页面手动触发，首次配置后先手动跑一次验证
+
+permissions:
+  contents: write          # 允许内置 GITHUB_TOKEN 提交并推送 README
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 统计并更新 README 徽章
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # 内置 Token，无需自己建 PAT
+          GITHUB_USER: LingyunStudio                  # 要统计的用户名
+          # INCLUDE_FORKS: "0"                       # 不统计 Fork 仓库时取消注释
+        run: python3 update_stats.py                  # ubuntu 自带 python3，纯标准库
+
+      - name: 提交（数据有变化才提交）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md stats.json
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore: 自动刷新统计徽章 [skip ci]"
+            git push
+          fi
