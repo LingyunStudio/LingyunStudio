@@ -6,7 +6,8 @@ name: Update GitHub Stats
 
 on:
   schedule:
-    - cron: "0 * * * *"   # 每小时整点刷新一次（UTC 0:00/1:00/2:00… = 北京时间 8:00/9:00/10:00…）
+    - cron: "37 * * * *"  # 每小时第 37 分钟刷新（北京 8:37/9:37…）。刻意避开整点：
+                          # 整点是全 GitHub 定时任务高峰，调度器会延迟很久才执行
   workflow_dispatch:       # 允许在 Actions 页面手动触发，首次配置后先手动跑一次验证
 
 permissions:
