@@ -1,8 +1,8 @@
 
 **Data ：** 
-![Total Stars](https://img.shields.io/badge/Total_Stars-184-F8D866?logo=github) 
-![Total Forks](https://img.shields.io/badge/Total_Forks-35-7FAEE2?logo=github) 
-![Total Downloads](https://img.shields.io/badge/Total_Downloads-2129-55C181?logo=github)
+![Total Stars](https://img.shields.io/badge/Total_Stars-185-F8D866?logo=github) 
+![Total Forks](https://img.shields.io/badge/Total_Forks-36-7FAEE2?logo=github) 
+![Total Downloads](https://img.shields.io/badge/Total_Downloads-2134-55C181?logo=github)
 
 **Interested in：** 
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white) 
