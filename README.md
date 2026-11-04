@@ -2,7 +2,7 @@
 **Data ：** 
 ![Total Stars](https://img.shields.io/badge/Total_Stars-202-F8D866?logo=github) 
 ![Total Forks](https://img.shields.io/badge/Total_Forks-38-7FAEE2?logo=github) 
-![Total Downloads](https://img.shields.io/badge/Total_Downloads-2326-55C181?logo=github)
+![Total Downloads](https://img.shields.io/badge/Total_Downloads-2328-55C181?logo=github)
 
 **Interested in：** 
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white) 
